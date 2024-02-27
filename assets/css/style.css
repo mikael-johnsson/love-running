@@ -23,6 +23,10 @@ header {
     background-color: lightcoral;   
 }
 
+h1 {
+    font-family: 'oswald', sans-serif;
+}
+
 main {
     background-color: lightblue;
     /*make main element take up any surplus space to push footer down*/
