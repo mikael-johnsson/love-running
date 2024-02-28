@@ -192,7 +192,9 @@ main {
 }
 
 .text-input {
-    line-height: 25px;
+    background: transparent;
+    height: 25px;
+    width: 100%;
     margin: 5px 0 20px 0;
     padding: 0 5px;
     color: #fafafa;
@@ -338,6 +340,34 @@ main {
     column-count: 3;
     column-gap: 0;
 }
+
+    /*signup page*/
+
+#signup {
+    background-position: center;
+    position: relative;
+}
+
+#signup-form {
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    max-width: 400px;
+
+    
+}
+
+#text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}   
+
+
+
 }
 
 
